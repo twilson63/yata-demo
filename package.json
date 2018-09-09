@@ -1,0 +1,27 @@
+{
+  "name": "parcel-svelte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-svelte": "github:twilson63/parcel-plugin-svelte",
+    "svelte": "^2.13.1"
+  },
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "redux-bundler": "^21.2.2",
+    "tachyons": "^4.11.1",
+    "uuid": "^3.3.2"
+  },
+  "browserslist": [
+    "> 5%"
+  ]
+}
